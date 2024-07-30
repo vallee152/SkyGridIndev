@@ -1,8 +1,12 @@
+## Contents
+
+This repo contains four pre-generated worlds and the files I've created or edited to generate more worlds. Two basic worlds and two worlds with chests are within the folder labelled `pre-generated worlds`. This is for in the case one only wants to play SkyGrid Indev, but does not want to generate the world themself. Under the `source` folder are all the files I have created or modified to make the process of generation as easy as possible. It is recommended to make copies of all files before use and to use a different direcory.
+
 ## Prerequisites
 
 You should have the below ready to go.
 
-* MCEdit with `skygrid.py` in the `filters` folder.
+* A version of MCEdit that is compatible with the mclevel format, with `skygrid.py` in the `filters` folder.
 * An NBT editor.
 * Minecraft Indev.
 * A proxy to supply the required resources to Minecraft Indev.
@@ -16,7 +20,7 @@ These are the steps I follow to create a basic Sky Grid map without any chests.
 1. Create a copy of `skygrid template.dat` and rename it to something else with the file extension `.mclevel`. Open the copy in MCEdit.
 2. Hit ctrl+A and use the filter, which is named "Sethbling's Sky Grid." Set "Grid Width" and "Length" to `3`, and "Grid Height" to `4`. Leave "Generate Chests" unchecked.
 3. Save the world and reload, before flying around a little just to look at the map.
-4. Change the file extension back to `.dat` and open the folder it and the template are in using NBTExplorer. Delete all entities that may be in the world save and copy the one from the template file in.
+4. Change the file extension back to `.dat`. Open the folder that it and the template are in using NBTExplorer. Delete all entities that may be in the world save and copy the one from the template file in.
 5. Save and exit NBTExplorer and then change the file extension of the skygrid map back to `.mclevel`. The map is ready to be played.
 
 ## Chest Generation
